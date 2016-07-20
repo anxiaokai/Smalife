@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/blog"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="修改博客地址:"
+        android:textSize="25sp"
+        android:textColor="@color/bl"
+        />
+    <EditText
+        android:id="@+id/edittextblog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

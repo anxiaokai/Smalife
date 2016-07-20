@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    </android.support.v7.widget.Toolbar>
+
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:id="@+id/outliner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="130dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        >
+        <LinearLayout
+            android:id="@+id/linertree"
+            android:layout_width="match_parent"
+            android:background="@drawable/treebg"
+            android:layout_height="match_parent">
+            <EditText
+                android:id="@+id/treetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@null"
+                android:maxLines="50"
+                android:hint="相传,在此写下高兴或悲伤,然后长按屏幕,留下的只有快乐!"
+                />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:visibility="gone"
+        android:id="@+id/displaycardview"
+        android:layout_width="340dp"
+        android:layout_height="360dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:foreground="?attr/selectableItemBackground"
+        android:stateListAnimator="@anim/item_raise"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/disttwo"
+                android:scaleType="centerCrop"
+                />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp">
+            <TextView
+                android:paddingTop="25dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="40dp"
+                android:id="@+id/textdiaplay"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:textSize="22sp"
+
+                />
+                <TextView
+                    android:id="@+id/textfrom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginRight="20dp"
+                    />
+            </FrameLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <shem.com.materiallogin.MaterialLoginView
+        android:visibility="gone"
+        android:id="@+id/logintreehold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:loginTitle="登陆"
+        app:loginHint="用户名"
+        app:loginPasswordHint="密码"
+        app:registerTitle="注册"
+        app:registerHint="用户名"
+        app:registerPasswordHint="密码"
+        app:registerRepeatPasswordHint="确认密码"
+        app:registerActionText="下一步"
+        app:loginActionText="登陆"
+        />
+</FrameLayout>
+</LinearLayout>

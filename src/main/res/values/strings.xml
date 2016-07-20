@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">小生活</string>
+    <string name="index_page">首页</string>
+    <string name="play">娱乐</string>
+    <string name="traffic">交通</string>
+    <string name="tree">树洞</string>
+    <string name="setting">设置</string>
+    <string name="exit">关于</string>
+    <array name="planets_array">
+        <item>你好</item>
+        <item>再见</item>
+        <item>还来啊</item>
+        <item>新闻</item>
+    </array>
+    <string name="share">分享</string>
+</resources>

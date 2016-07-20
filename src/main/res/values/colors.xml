@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#3F31B9</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="listback">#ffffff</color>
+    <color name="tabbg">#eeeeee</color>
+    <color name="toolbar">#4CA5FF</color>
+    <color name="white">#ffffff</color>
+    <color name="fra1_bg">#f7f7f7</color>
+    <color name="balck">#000000</color>
+    <color name="progressbar">#CCCCFF</color>
+    <color name="traff1item">#E0EEE0</color>
+    <color name="back">#bbF2F3F4</color>
+    <color name="slidebar">#009999</color>
+    <color name="yello">#ffcc00</color>
+    <color name="red">#cc3366</color>
+
+    <color name="green">#339933</color>
+    <color name="yell2">#ffcc33</color>
+    <color name="bl">#336699</color>
+
+    <color name="orange">#FF9900</color>
+
+    <color name="material_login_login_color">#ffcc00</color>
+    <color name="material_login_register_color">#cc3366</color>
+    <color name="material_login_login_error_color">#ffbebe</color>
+    <color name="material_login_register_error_color">#600002</color>
+
+</resources>

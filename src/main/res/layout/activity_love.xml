@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:htext="http://schemas.android.com/apk/res-auto"
+    tools:context="googleplay.xiaokai.com.managelife.LoveActivity">
+
+    <googleplay.xiaokai.com.managelife.LoveView
+        android:id="@+id/loveview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </googleplay.xiaokai.com.managelife.LoveView>
+
+</FrameLayout>
